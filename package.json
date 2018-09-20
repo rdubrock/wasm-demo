@@ -1,0 +1,29 @@
+{
+  "name": "wasm-demo",
+  "version": "1.0.0",
+  "description": "a demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-brute-force-sudoku": "^1.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "rust-sudoku-solver": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "babel-preset-env": "^7.0.0",
+    "babel-preset-react": "^7.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
