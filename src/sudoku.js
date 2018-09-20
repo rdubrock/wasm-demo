@@ -69,7 +69,7 @@ export default class Test extends React.Component {
         <button onClick={ this.solveWithWasm }>Solve with wasm!</button>
         <button onClick={ this.solveWithJS }>Solve with JS!</button>
         <div>
-          { `Solved in ${this.state.time}ms`}
+          <h1>{ this.state.time && `Solved in ${this.state.time}ms`}</h1>
         </div>
         <div>
           { this.printBoard(this.state.solution) }
